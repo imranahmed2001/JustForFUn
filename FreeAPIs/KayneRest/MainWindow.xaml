@@ -1,0 +1,18 @@
+﻿<Window x:Class="KayneRest.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KayneRest"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/maxresdefault.jpg"/>
+        </Grid.Background>
+        <Label Content="Kayne Rest API" HorizontalAlignment="Center" Margin="0,10,0,0" VerticalAlignment="Top" FontSize="48"/>
+        <Button Content="Words of Wisdom" HorizontalAlignment="Left" Margin="331,108,0,0" VerticalAlignment="Top" Height="54" Width="116" Click="Button_Click"/>
+        <Label x:Name="labelQuote" Content="" HorizontalAlignment="Left" Margin="23,260,0,0" VerticalAlignment="Top" Background="White"/>
+
+    </Grid>
+</Window>
